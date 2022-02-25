@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA4FE5FA27C96F9E0033F241 /* SharedFunctionsAndConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4FE5F927C96F9E0033F241 /* SharedFunctionsAndConstants.swift */; };
 		EA8AE82C27C530100095ACC1 /* QuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8AE82B27C530100095ACC1 /* QuotesApp.swift */; };
 		EA8AE82E27C530100095ACC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8AE82D27C530100095ACC1 /* ContentView.swift */; };
 		EA8AE83027C530120095ACC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8AE82F27C530120095ACC1 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA4FE5F927C96F9E0033F241 /* SharedFunctionsAndConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFunctionsAndConstants.swift; sourceTree = "<group>"; };
 		EA8AE82827C530100095ACC1 /* Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8AE82B27C530100095ACC1 /* QuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesApp.swift; sourceTree = "<group>"; };
 		EA8AE82D27C530100095ACC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA4FE5F727C96F4C0033F241 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA8AE82D27C530100095ACC1 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA4FE5F827C96F5E0033F241 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EA4FE5F927C96F9E0033F241 /* SharedFunctionsAndConstants.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		EA8AE81F27C530100095ACC1 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				EA8AE82B27C530100095ACC1 /* QuotesApp.swift */,
+				EA4FE5F827C96F5E0033F241 /* Shared */,
 				EA8AE83927C5301E0095ACC1 /* Model */,
-				EA8AE82D27C530100095ACC1 /* ContentView.swift */,
+				EA4FE5F727C96F4C0033F241 /* Views */,
 				EA8AE82F27C530120095ACC1 /* Assets.xcassets */,
 				EA8AE83127C530120095ACC1 /* Preview Content */,
 			);
@@ -148,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4FE5FA27C96F9E0033F241 /* SharedFunctionsAndConstants.swift in Sources */,
 				EA8AE82E27C530100095ACC1 /* ContentView.swift in Sources */,
 				EA8AE83B27C530380095ACC1 /* Quote.swift in Sources */,
 				EA8AE82C27C530100095ACC1 /* QuotesApp.swift in Sources */,
