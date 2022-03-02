@@ -130,7 +130,7 @@ struct ContentView: View {
     func loadNewQuote() async {
         
         // Assemble the URL that points to the endpoint
-        let url = URL(string: "http://forismatic.com/en/22b6b234e5/")!
+        let url = URL(string: "https://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=json&lang=en")!
         
         // Request URL
         var request = URLRequest(url: url)
